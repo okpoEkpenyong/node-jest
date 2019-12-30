@@ -30,9 +30,9 @@
     "pg": "^7.16.1"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "**/*.js",
-      "!data/keyMap.js"
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
     ]
   }
 }
