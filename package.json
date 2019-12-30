@@ -1,0 +1,38 @@
+{
+  "name": "node-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okpoEkpenyong/node-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okpoEkpenyong/node-jest/issues"
+  },
+  "homepage": "https://github.com/okpoEkpenyong/node-jest#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^7.16.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+        "**/*.js",
+        "!data/keyMap.js",
+        "!/node_modules/"
+    ]
+  }
+}
