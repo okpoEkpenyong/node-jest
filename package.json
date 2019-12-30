@@ -20,6 +20,7 @@
   "homepage": "https://github.com/okpoEkpenyong/node-jest#readme",
   "devDependencies": {
     "coveralls": "^3.0.9",
+    "jest": "^24.9.0",
     "supertest": "^4.0.2"
   },
   "dependencies": {
@@ -30,9 +31,9 @@
   },
   "jest": {
     "collectCoverageFrom": [
-        "**/*.js",
-        "!data/keyMap.js",
-        "!/node_modules/"
+      "**/*.js",
+      "!data/keyMap.js",
+      "!/node_modules/"
     ]
   }
 }
