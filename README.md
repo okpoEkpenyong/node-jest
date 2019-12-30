@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.com/okpoEkpenyong/node-jest.svg?branch=master)](https://travis-ci.com/okpoEkpenyong/node-jest)
+[![Coverage Status](https://coveralls.io/repos/github/okpoEkpenyong/node-jest/badge.svg?branch=master)](https://coveralls.io/github/okpoEkpenyong/node-jest?branch=master)
