@@ -5,5 +5,5 @@ cache:
 install: npm install
 services: postgresql
 before_script:
-- psql -c 'create database studentDB;' -U postgres
+- psql -c 'create database studentsDB;' -U postgres
 script: npm run coveralls
